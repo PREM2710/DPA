@@ -33,7 +33,7 @@ $result = $conn->query($sql);
         <label for="address">Address:</label><br>
         <textarea name="address" required></textarea><br><br>
 
-        <input type="submit" value="Add Customer">
+        <input type="submit" value="Add New Customer">
     </form>
 
     <h2>Customers List</h2>
