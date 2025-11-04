@@ -1,5 +1,6 @@
 <?php
 // index.php
+
 include('config.php');
 
 // Fetch all customers
@@ -16,6 +17,11 @@ $result = $conn->query($sql);
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Displaying commit message at the top -->
+    <p style="background-color: #d4edda; color: #155724; padding: 10px; border: 1px solid #c3e6cb;">
+        ✅ New Commit Successful – CI/CD Pipeline Triggered
+    </p>
+
     <h1>MINI CRM</h1>
 
     <!-- Add Customer Form -->
